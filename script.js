@@ -21,8 +21,9 @@ const Start_Animation = () => {
         position = 0;
       } else {
         position++;
+        bike.style.position = "relative";
         bike.style.left = position + "px";
       }
-    }, 5);
+    }, 10);
   }
 };
